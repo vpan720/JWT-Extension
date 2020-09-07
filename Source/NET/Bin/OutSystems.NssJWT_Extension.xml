@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>OutSystems.NssJWT_Extension</name>
+    </assembly>
+    <members>
+        <member name="M:OutSystems.NssJWT_Extension.CssJWT_Extension.MssCreateToken(System.String,System.String,System.String,System.String@)">
+            <summary>
+            
+            </summary>
+            <param name="ssPaymentId"></param>
+            <param name="ssOrderId"></param>
+            <param name="ssSecret"></param>
+            <param name="ssSignedToken"></param>
+        </member>
+        <member name="M:OutSystems.NssJWT_Extension.CssJWT_Extension.MssReadToken(System.String,System.String@,System.String@)">
+            <summary>
+            
+            </summary>
+            <param name="ssJWT_Token"></param>
+            <param name="ssPaymentId"></param>
+            <param name="ssOrderId"></param>
+        </member>
+        <member name="M:OutSystems.NssJWT_Extension.IssJWT_Extension.MssCreateToken(System.String,System.String,System.String,System.String@)">
+            <summary>
+            
+            </summary>
+            <param name="ssPaymentId"></param>
+            <param name="ssOrderId"></param>
+            <param name="ssSecret"></param>
+            <param name="ssSignedToken"></param>
+        </member>
+        <member name="M:OutSystems.NssJWT_Extension.IssJWT_Extension.MssReadToken(System.String,System.String@,System.String@)">
+            <summary>
+            
+            </summary>
+            <param name="ssJWT_Token"></param>
+            <param name="ssPaymentId"></param>
+            <param name="ssOrderId"></param>
+        </member>
+    </members>
+</doc>
